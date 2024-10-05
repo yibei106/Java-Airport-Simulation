@@ -17,6 +17,7 @@ This project simulates the operations of Airport, focusing on optimizing landing
 - The simulation utilizes multiple concurrent processes to represent the activities occurring at the airport:
   - **Disembarking and Embarking**: Passengers are managed concurrently at the gates while planes are refueled.
   - **Exclusive Resource Management**: The refueling process is synchronized, as only one aircraft can be refueled at a time.
+  - **Weather Consideration**: The departure of airplane will be delayed for a second when bad weather conditions. 
 - A congested scenario is simulated with two planes waiting to land and a third plane with fuel shortages requiring an emergency landing.
 
 ## Statistics Collection
